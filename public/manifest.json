@@ -1,0 +1,26 @@
+{
+  "name": "Cloth Hanger",
+  "short_name": "Cloth Hanger",
+  "icons": [
+      {
+        "src": "favicon.png",
+        "sizes": "64x64 32x32 24x24 16x16",
+        "type": "image/png"
+      },
+      {
+          "src": "favicon.png",
+          "sizes": "192x192",
+          "type": "image/png"
+      },
+      {
+          "src": "favicon.png",
+          "sizes": "512x512",
+          "type": "image/png"
+      }
+  ],
+  "start_url": "/",
+  "theme_color": "#171717",
+  "background_color": "#171717",
+  "display": "standalone",
+  "orientation": "portrait"
+}

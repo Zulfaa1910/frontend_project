@@ -1,0 +1,101 @@
+
+.form-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left:250px;
+  margin-right: 250px;
+  border: 2px solid #ccc; /* Add a border with color #ccc */
+  padding: 20px; /* Add padding for better visual */
+  border-radius: 20px; /* Add border-radius for rounded corners */
+  box-sizing: border-box; /* Include padding and border in the total width and height */
+}
+.input-form::placeholder {
+    color: #999; /* Set the color of the placeholder text */
+    font-style: italic; /* Optionally, set the font style */
+  }
+ 
+.label-input{
+    font-weight: bold;
+}
+
+.input-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #ccc; /* Add a border with color #ccc */
+  padding: 25px; /* Add padding for better visual */
+  border-radius: 20px; /* Add border-radius for rounded corners */
+  box-sizing: border-box;  /* Adjust the font size */
+}
+
+
+button {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #0f110f; /* Add a background color */
+  color: white; /* Set text color to white */
+  border: none; /* Remove default button border */
+  border-radius: 4px; /* Add border-radius for rounded corners */
+}
+
+button:hover {
+  background-color: #7b7f7c; /* Change background color on hover */
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left:250px;
+  margin-right: 250px;
+  border: 2px solid #ccc; /* Add a border with color #ccc */
+  padding: 20px; /* Add padding for better visual */
+  border-radius: 20px; /* Add border-radius for rounded corners */
+  box-sizing: border-box; 
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.textorange {
+color:#F98121;
+}
+.btn normal-case text-white rounded bg-secondary{
+  color:#F98121; 
+}

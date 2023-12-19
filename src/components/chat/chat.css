@@ -1,0 +1,83 @@
+/* AddProduct.css */
+
+.customer-chat {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    max-width: 400px;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .chat-messages {
+    flex: 1;
+    overflow-y: auto;
+    padding: 10px;
+  }
+  
+  .message {
+    max-width: 80%;
+    margin: 8px;
+    padding: 12px;
+    border-radius: 8px;
+  }
+  
+  .user {
+    background-color: #4CAF50;
+    color: white;
+    align-self: flex-end;
+  }
+  
+  .agent {
+    background-color: #2196F3;
+    color: white;
+    align-self: flex-start;
+  }
+  
+  .chat-input {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  input {
+    flex: 1;
+    padding: 8px;
+    margin-right: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .button-chat {
+    background-color: #383b38;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .button-chat:hover {
+    background-color: #020202;
+  }
+  
+  .chat-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+  }
+  
+  .profile-image {
+    width: 40px; /* Adjust the width as needed */
+    height: 40px; /* Adjust the height as needed */
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .profile-name {
+    font-size: 18px;
+    font-weight: bold;
+  }

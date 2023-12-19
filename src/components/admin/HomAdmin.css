@@ -1,0 +1,74 @@
+/* HomAdmin.css (atau sesuaikan dengan nama file yang benar) */
+
+.user-table-container {
+    display: flex;
+    
+  }
+  
+  .sidebar {
+    width: 200px;
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  .sidebar h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .menu {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .menu li {
+    margin-bottom: 10px;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 10px;
+    background-color: #ddd;
+    border-radius: 5px;
+  }
+  
+  .menu a:hover {
+    background-color: #ccc;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .user-table-heading {
+    color: #333;
+    text-align: center;
+  }
+  
+  .user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .table-header {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .table-header-cell,
+  .table-cell {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .table-cell {
+    background-color: #f9f9f9;
+  }
+  
+  /* Gaya tambahan sesuai kebutuhan */
+  
