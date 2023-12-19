@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './ProductList.css';
 import { Link } from "react-router-dom";
-// import Header from "../common/header/Header";
-// import Footer from "../common/footer/Footer"; // Import CSS file
+import Header from "../common/header/Header";
+import Footer from "../common/footer/Footer"; // Import CSS file
 
 const ProductList = () => {
   const [dataProducts, setDataProducts] = useState([]);
@@ -47,6 +47,7 @@ const ProductList = () => {
 
   return (
     <>
+    <Header/>
     <div className="user-table-container">
       <div className="sidebar">
         <h2>Dashboard</h2>
@@ -109,7 +110,7 @@ const ProductList = () => {
           </tbody>
         </table>
       </div>
-     
+      <Footer/>
     </>
   );
 };

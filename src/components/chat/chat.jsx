@@ -2,6 +2,8 @@
 
 import React, { useState, useRef } from 'react';
 import './chat.css';
+import Header from "../common/header/Header";
+import Footer from "../common/footer/Footer";
 
 const CustomerChat = () => {
   const [messages, setMessages] = useState([]);
@@ -16,7 +18,7 @@ const CustomerChat = () => {
 
       // Simulate a response from a customer support agent after a delay
       setTimeout(() => {
-        setMessages([...messages, { text: 'Hello! How can I help you?', type: 'agent' }]);
+        setMessages([...messages, { text: 'Hiiii, Toko Sedang Offline Mohon Menunggu !!!', type: 'agent' }]);
       }, 1000);
     }
   };
@@ -32,6 +34,8 @@ const CustomerChat = () => {
   }, [messages]);
 
   return (
+    <>
+    <Header/>
     <div className="customer-chat">
       <div className="chat-header">
         <img
@@ -58,6 +62,8 @@ const CustomerChat = () => {
         <button className="button-chat" onClick={sendMessage}>Send</button>
       </div>
     </div>
+    <Footer/>
+    </>
   );
 };
 

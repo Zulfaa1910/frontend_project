@@ -20,6 +20,20 @@
     list-style-type: none;
     padding: 0;
   }
+
+  .header-admin {
+    background-color: #11253a; /* Change this color to your preferred color code */
+    padding: 5px 10px; /* Add padding for better visual appearance */
+    height: 50px; /* Adjust the height according to your preference */
+  }
+
+  .footer-admin{
+    background-color: #11253a; /* Change this color to your preferred color code */
+    padding: 5px 10px; /* Add padding for better visual appearance */
+    height: 50px;
+  }
+  
+  
   
   .menu li {
     margin-bottom: 10px;

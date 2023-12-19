@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 import React, { useState, useEffect } from 'react';
 import './HomAdmin.css';
 import axios from 'axios';
+import Header from "../common/header/Header";
+import Footer from "../common/footer/Footer";
 
 const HomeAdmin = () => {
   const [dataUsers, setDataUsers] = useState([]);
@@ -44,6 +46,8 @@ const HomeAdmin = () => {
   );
 
   return (
+    <>
+    <Header/>
     <div className="user-table-container">
       <div className="sidebar">
         <h2>Dashboard</h2>
@@ -98,6 +102,8 @@ const HomeAdmin = () => {
         </tbody>
       </table>
     </div>
+    <Footer/>
+    </>
   );
 };
 

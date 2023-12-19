@@ -18,7 +18,7 @@ const LoginAdmin = () => {
       alert("Email dan password tidak boleh kosong");
     } else {
       try {
-        const response = await axios.post("http://localhost:8080/user/login", {
+        const response = await axios.post("http://localhost:8080/admin/login", {
           email: email,
           password: password,
         });
