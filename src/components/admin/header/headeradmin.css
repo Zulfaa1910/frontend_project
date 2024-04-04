@@ -1,0 +1,42 @@
+/* AdminHeader.css */
+
+.admin-header {
+  background-color: #333; /* Warna latar belakang header */
+  padding: 15px 0; /* Padding atas dan bawah */
+}
+
+.container {
+  display: flex;
+  justify-content: space-between; /* Menyebarkan komponen header */
+  align-items: center; /* Pusatkan vertikal */
+  max-width: 1200px; /* Batas lebar konten */
+  margin: 10px auto; /* Pusatkan horizontal */
+}
+
+.admin-header-left {
+  display: flex;
+  align-items: center;
+}
+
+.admin-header-left a {
+  margin-right: 20px; /* Jarak antara tautan */
+  color: #fff; /* Warna teks */
+  text-decoration: none; /* Hapus dekorasi tautan */
+}
+
+.admin-header-right {
+  display: flex;
+  align-items: center;
+}
+
+.admin-header-right input {
+  padding: 10px; /* Padding input */
+  border-radius: 5px; /* Agar input terlihat lebih rapi */
+  border: none; /* Hapus garis input */
+}
+
+.admin-header-right img {
+  margin-left: 10px; /* Jarak antara input dan ikon */
+  width: 20px; /* Lebar ikon pencarian */
+  height: 20px; /* Tinggi ikon pencarian */
+}

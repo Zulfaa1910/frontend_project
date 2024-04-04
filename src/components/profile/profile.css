@@ -1,0 +1,50 @@
+.profile-page {
+  padding-top: 60px; /* Mengatur jarak antara header dan konten profil */
+}
+
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.profile-details {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-details img {
+  width: 150px; /* Lebar gambar profil */
+  height: 150px; /* Tinggi gambar profil */
+  border-radius: 50%; /* Membuat gambar profil menjadi lingkaran */
+  object-fit: cover; /* Menyesuaikan gambar ke dalam lingkaran */
+}
+
+.profile-details h2 {
+  margin: 10px 0;
+}
+
+.profile-details p {
+  margin-bottom: 20px;
+}
+
+.profile-actions {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-actions button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff; /* Warna latar belakang tombol */
+  color: #fff; /* Warna teks tombol */
+  cursor: pointer;
+}
+
+.profile-actions button:hover {
+  background-color: #0056b3; /* Warna latar belakang tombol saat dihover */
+}

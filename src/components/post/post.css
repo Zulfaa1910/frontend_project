@@ -16,6 +16,7 @@
   font-weight: 600;
   font-size: 1.25rem;
   margin-left: 1rem;
+  text-align: center; /* Tambahkan properti untuk mengatur teks ke tengah */
 }
 
 .form-container {
@@ -71,7 +72,6 @@
   background-color: #45454e;
 }
 
-
 form {
   display: grid;
   gap: 1rem;
@@ -91,7 +91,7 @@ form {
 .textarea-field,
 .file-input {
   width: 100%;
-  padding: 1rem; /* Increase padding for better input field appearance */
+  padding: 1rem;
   border: 1px solid #d2d6dc;
   border-radius: 0.25rem;
   font-size: 1rem;
@@ -121,6 +121,12 @@ form {
 @media (max-width: 768px) {
   .title {
     margin-left: 0;
+    text-align: center; /* Teks selalu di tengah pada layar kecil */
+  }
+
+  img {
+    max-width: 100%; /* Gambar tidak melebihi lebar kontainer */
+    height: auto; /* Biarkan tinggi gambar menyesuaikan proporsi */
   }
 }
 

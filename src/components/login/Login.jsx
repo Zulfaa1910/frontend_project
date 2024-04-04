@@ -57,7 +57,7 @@ const Login = () => {
             <img
               src={logo}
               alt="Logo"
-              style={{ width: "400px", height: "150px" }}
+              style={{ width: "100px", height: "10px" }}
             />
           </div>
 
@@ -83,7 +83,7 @@ const Login = () => {
             <button type="submit">Sign IN</button>
           </center>
           <center>
-            <a href="/register">New to CLOTH HANGER? Sign Up</a>
+            <a href="/register">belum ada akun? Sign Up</a>
           </center>
           <center>
             <label>Terms and conditions</label>

@@ -3,34 +3,27 @@ export const nav = [
     text: "home",
     path: "/",
   },
+
   {
-    text: "product",
-    path: "/blog",
-  },
-  {
-    text: "Tambahkan",
+    text: "Form Upload",
     path: "/post",
   },
+
+  {
+    text: "Notifikasi",
+    path: "/profile",
+  },
+
   // {
-  //   text: "pricing",
-  //   path: "/pricing",
+  //   text: "contact",
+  //   path: "/contact",
   // },
-  {
-    text: "contact",
-    path: "/contact",
-  },
-  {
-    text: "about",
-    path: "/about",
-  },
-  {
-    text: "login",
-    path: "/login",
-  },
+
   // {
-  //   text: "register",
-  //   path: "/register",
+  //   text: "login",
+  //   path: "/login",
   // },
+
 ]
 export const featured = [
   {
@@ -217,30 +210,6 @@ export const team = [
     address: "Denever, USA",
     name: "Anna K. Young",
     review: "Pakaian bekas ini adalah temuan luar biasa! Saya menemukan gaun cantik untuk acara khusus dengan harga yang hampir setengah dari harga aslinya.",
-    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
-  },
-  {
-    list: "Reviewers",
-    cover: "../images/customer/team-4.jpg",
-    address: "2272 Briarwood Drive",
-    name: "Michael P. Grimaldo",
-    review: "Saya adalah penggemar berbelanja pakaian bekas, dan toko ini adalah salah satu yang terbaik. Pakaian yang selalu up to date dengan tren terkini dan harga yang sangat bersaing.",
-    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
-  },
-  {
-    list: "Reviewers",
-    cover: "../images/customer/team-5.jpg",
-    address: "2272 Briarwood Drive",
-    name: "Michael P. Grimaldo",
-    review: "Pembelian pakaian bekas adalah cara yang bagus untuk berkeliling dengan gaya tanpa harus merogoh kocek terlalu dalam. Saya selalu menemukan pakaian yang cocok dengan selera saya di sini.",
-    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
-  },
-  {
-    list: "Reviewers",
-    cover: "../images/customer/team-5.jpg",
-    address: "Montreal, USA",
-    name: "Adam K. Jollio",
-    review: "Pakaian bekas merupakan opsi berkeliling yang ramah lingkungan, dan saya senang mendukungnya. Saya telah menemukan banyak pilihan pakaian yang sesuai dengan kebutuhan saya di sini.",
     icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
 ]

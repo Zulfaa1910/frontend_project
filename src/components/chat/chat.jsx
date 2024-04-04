@@ -43,7 +43,7 @@ const CustomerChat = () => {
           alt="Profile"
           className="profile-image"
         />
-        <span className="profile-name">Subekti Bimo</span>
+        <span className="profile-name">jason willie</span>
       </div>
       <div ref={messagesRef} className="chat-messages">
         {messages.map((message, index) => (

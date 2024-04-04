@@ -1,88 +1,95 @@
-/* HomAdmin.css (atau sesuaikan dengan nama file yang benar) */
+/* HomeAdmin.css (atau sesuaikan dengan nama file yang benar) */
 
+/* Container Sidebar dan Tabel */
 .user-table-container {
-    display: flex;
-    
-  }
-  
-  .sidebar {
-    width: 200px;
-    background-color: #f1f1f1;
-    padding: 20px;
-  }
-  
-  .sidebar h2 {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .menu {
-    list-style-type: none;
-    padding: 0;
-  }
+  display: flex;
+}
 
-  .header-admin {
-    background-color: #11253a; /* Change this color to your preferred color code */
-    padding: 5px 10px; /* Add padding for better visual appearance */
-    height: 50px; /* Adjust the height according to your preference */
-  }
+.sidebar {
+  width: 200px;
+  background-color: #f3f3f3; /* Warna latar belakang sidebar */
+  padding: 20px;
+  height: 100vh; /* Menetapkan tinggi sidebar sesuai tinggi layar */
+  overflow-y: auto; /* Tambahkan scroll jika konten melebihi tinggi sidebar */
+}
 
-  .footer-admin{
-    background-color: #11253a; /* Change this color to your preferred color code */
-    padding: 5px 10px; /* Add padding for better visual appearance */
-    height: 50px;
-  }
-  
-  
-  
-  .menu li {
-    margin-bottom: 10px;
-  }
-  
-  .menu a {
-    text-decoration: none;
-    color: #333;
-    display: block;
-    padding: 10px;
-    background-color: #ddd;
-    border-radius: 5px;
-  }
-  
-  .menu a:hover {
-    background-color: #ccc;
-  }
-  
-  .content {
-    flex: 1;
-    padding: 20px;
-  }
-  
-  .user-table-heading {
-    color: #333;
-    text-align: center;
-  }
-  
-  .user-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 10px;
-  }
-  
-  .table-header {
-    background-color: #4CAF50;
-    color: white;
-  }
-  
-  .table-header-cell,
-  .table-cell {
-    border: 1px solid #ddd;
-    padding: 12px;
-    text-align: left;
-  }
-  
-  .table-cell {
-    background-color: #f9f9f9;
-  }
-  
-  /* Gaya tambahan sesuai kebutuhan */
-  
+.sidebar h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333; /* Warna teks header */
+}
+
+.menu {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu li {
+  margin-bottom: 10px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  padding: 10px;
+  background-color: #ffffff; /* Warna latar belakang menu */
+  border-radius: 5px;
+}
+
+.menu a:hover {
+  background-color: #e0e0e0; /* Warna latar belakang menu saat hover */
+}
+
+.admin-profile {
+  display: flex;
+  align-items: center;
+  margin-top: 20px; /* Jarak antara menu dan profil admin */
+}
+
+.admin-profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%; /* Agar gambar menjadi lingkaran */
+  margin-right: 10px; /* Jarak antara avatar dan teks */
+}
+
+.admin-profile div {
+  color: #333; /* Warna teks profil */
+}
+
+.admin-profile h4 {
+  margin: 0;
+}
+
+.admin-profile p {
+  margin: 0;
+}
+
+/* Tabel Data Pengguna */
+.user-table-heading {
+  color: #333;
+  text-align: center;
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table-header {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.table-header-cell,
+.table-cell {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.table-cell {
+  background-color: #f9f9f9;
+}

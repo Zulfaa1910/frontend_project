@@ -7,9 +7,9 @@ const Hero = () => {
     <>
       <section className='hero'>
         <div className='container'>
-          <Heading title='Welcome in Our Clothes ' subtitle='Find new & featured property located in your local city.' />
+          <Heading title='Light Up Your Life' subtitle='Discover new & featured property located in your local city.' />
 
-          <form className='flex'>
+          {/* <form className='flex'>
             <div className='box'>
               <span>City/Street</span>
               <input type='text' placeholder='Location' />
@@ -19,16 +19,12 @@ const Hero = () => {
               <input type='text' placeholder='Category' />
             </div>
             <div className='box'>
-              <span>Price Range</span>
-              <input type='text' placeholder='Price Range' />
-            </div>
-            <div className='box'>
               <h4>Advance Filter</h4>
             </div>
             <button className='btn1'>
               <i className='fa fa-search'></i>
             </button>
-          </form>
+          </form> */}
         </div>
       </section>
     </>
